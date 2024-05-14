@@ -957,11 +957,11 @@ h3.succes_message {
 
 
 .membership_listing {
-	padding:0 0 0 79px;
+	padding:0 0 30px 79px;
 	position:relative;
 }
 .membership_listing h3 {
-	line-height:16px;
+	line-height:23px;
 	margin-bottom:18px;
 }
 .membership_listing span {
