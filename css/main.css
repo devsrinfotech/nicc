@@ -564,6 +564,9 @@ header{
 .menu.showmenu {
 	display:block;
 }
+.logo img{
+width: 50%;
+}
 .logo {
 	float:left;
 	width:auto;
@@ -900,7 +903,7 @@ h3.succes_message {
 
 /* banner overlay */
 .patternOverlay {
-	background:#1c416a;
+	background:#4d4c1a;
 	position:absolute;
 	top:0;
 	right:0;
@@ -940,15 +943,15 @@ h3.succes_message {
 
 /* backgrounds */
 .white_section {	
-	background-color:#fff;
+	background: color #d3d2b0;
 }
 .grey_section {	
-	background-color:#fafafb;
+	background-color:#eae2d2;
 }
 .yellow_section {
 }
 .blue_section {
-	background-color:#2f4e71;
+	background-color:#4d4c1a;
 }
 
 /*----------------------------------------------------
@@ -1655,7 +1658,7 @@ ul.list li {
 	 13. Footer Style
 ------------------------------------------------------*/
 .footer{
-	background-color:#243c58;
+	background-color:#a6a581;
 	padding:39px 0;
 }
 .footer p {
