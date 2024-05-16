@@ -61,7 +61,7 @@ ul.pricing-boxes li.best-plan .btn-primary,
 .plan-name.color,
 .imageBox.activeImage,
 ul.hover-social-icons li a:hover{
-	background-color:#f5d76e;
+	background-color:#eae2d2;
 }
 .isStuck,
 .custom-nav-tabs > li.active > a,
@@ -97,5 +97,5 @@ ul.pricing-boxes li.best-plan .plan-name:after {
 /* bottom border color variation */
 ul.pricing-boxes li.best-plan .btn-primary,
 input.normal, select.normal, textarea.normal{
-	border-color:#e5cd00;
+	border-color:#a3a3a3;
 }
