@@ -111,7 +111,7 @@ img {
 
 p{
 	font-family: 'Open Sans', sans-serif;
-	font-size:14px;
+	font-size:18px;
 	line-height:24px;
 	font-weight:400;
 	padding-bottom:22px;
@@ -142,14 +142,14 @@ h2{
 }
 h3{
 	font-family: 'Open Sans', sans-serif;
-	font-size:17px;
+	font-size:25px;
 	line-height:normal;
 	font-weight:700;
 	margin:0px 0 22px;
 }
 h4{
 	font-family: 'Open Sans', sans-serif;
-	font-size:16px;
+	font-size:22px;
 	line-height:24px;
 	font-weight:600;
 	margin:0px 0 15px;
@@ -168,6 +168,19 @@ h4.subHeading{
 	padding-bottom:22px;
 }
 
+
+
+mark{
+	background-color: #fff;
+	font-weight: bold;
+	font-size: 19px;
+}
+
+
+li{
+	font-size: 16px;
+}
+
 .heading{
 	text-align:left;
 	padding-bottom:60px;
@@ -181,9 +194,9 @@ h4.subHeading{
 .heading h1 {
 	color:#273342;
 	display:block;
-	line-height:63px;
+	line-height:96px;
 	text-transform:uppercase;
-	padding:22px;
+	padding:10px 10px 10px 20px;
 	border-left:8px solid;
 }
 .heading h1 span {
@@ -541,6 +554,15 @@ header{
 	visibility:hidden;
 }
 
+@media screen and (max-width: 768px) {
+.mobile-heading h1{
+	line-height: 50px;
+}
+.mobile-heading span{
+	line-height: 35px !important;
+}
+}
+
 
 
 
@@ -565,7 +587,7 @@ header{
 	display:block;
 }
 .logo img{
-width: 50%;
+width: 30%;
 }
 .logo {
 	float:left;
@@ -846,6 +868,37 @@ ul.language li ul li a:focus {
 	font-size:0;
 	letter-spacing:0;
 }
+
+.facultyrow{
+	display: flex;
+	justify-content:space-between; 
+	padding-bottom: 60px;
+}
+
+@media (min-width: 900px){
+	.facultyrow-column-reversed {
+		display: flex;
+		justify-content: space-between;
+		padding: 5px;
+	}
+	
+}
+
+@media (max-width: 768px) {
+	.facultyrow {
+		display: flex !important;
+		flex-direction: column-reverse !important;
+		padding: 5px !important;
+	}
+}
+
+@media (max-width: 768px) {
+	.facultyrow-column-reversed {
+		justify-content: space-between;
+		padding: 5px !important;
+	}
+}
+
 input.normal,
 select.normal,
 textarea.normal{
@@ -946,7 +999,7 @@ h3.succes_message {
 	background: color #d3d2b0;
 }
 .grey_section {	
-	background-color:#eae2d2;
+	background-color:#dfe7a9;
 }
 .yellow_section {
 }
@@ -1445,6 +1498,10 @@ ul.pricing-boxes li.best-plan .plan-features ul {
 	margin-bottom: 13px;
 	opacity: 1;
 }
+
+.center-content{
+	text-align: center;
+}
 .imageBox.activeImage {
 	opacity: 1;
 	position: relative;
@@ -1716,7 +1773,7 @@ ul.list li {
 		line-height:22px;
 	}
 	h2{
-		font-size:30px;
+		font-size:29px;
 		line-height:normal;
 	}
 	.logo {
